@@ -6,6 +6,8 @@ public class teacher {
 	byte age;
 	long salary;
 	String gender;
+
+// to take the user from user
 	public void enterDetails() {
 		Scanner pc=new Scanner(System.in);
 		System.out.println("name? : ");
@@ -17,12 +19,15 @@ public class teacher {
 		System.out.println("gender? : ");
 		this.gender=pc.next();
 	}
+// to display the info
 	public void displayDetails() {
 		System.out.println("name: " + this.name);
 		System.out.println("age: " +  this.age);
 		System.out.println("salary: " + this.salary);
 		System.out.println("gender: " + this.gender);
 	}
+
+	
 }
 
 package erty;
